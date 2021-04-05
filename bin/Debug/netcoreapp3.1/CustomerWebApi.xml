@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CustomerWebApi</name>
+    </assembly>
+    <members>
+        <member name="M:CustomerWebApi.Controllers.CustomerController.GetCustomers">
+            <summary>
+            Gets All Customers ınformation
+            </summary>
+            <returns>All Customer list</returns>
+        </member>
+        <member name="M:CustomerWebApi.Controllers.CustomerController.GetCustomer(System.Int64)">
+            <summary>
+            Gets Customer information which has input id
+            </summary>
+            <param name="id">Customer Id</param>
+            <returns>Customer Information</returns>
+        </member>
+        <member name="M:CustomerWebApi.Controllers.CustomerController.PostCustomer(CustomerWebApi.Models.Customer)">
+            <summary>
+            Creates new customer
+            </summary>
+            <param name="customer">New Customer Information</param>
+            <returns>New Customer</returns>
+        </member>
+        <member name="M:CustomerWebApi.Controllers.CustomerController.PutCustomer(System.Int64,CustomerWebApi.Models.Customer)">
+            <summary>
+            Updates customer informations
+            </summary>
+            <param name="id">Customer Id</param>
+            <param name="customer">Updated Customer Info</param>
+            <returns></returns>
+        </member>
+        <member name="M:CustomerWebApi.Controllers.CustomerController.GetOrder(System.Int64)">
+            <summary>
+            Gets order wihch has input id
+            </summary>
+            <param name="id">Order Id</param>
+            <returns>Order</returns>
+        </member>
+        <member name="M:CustomerWebApi.Controllers.CustomerController.PostOrder(CustomerWebApi.Models.Order)">
+            <summary>
+            Creates new order and update stocks
+            </summary>
+            <param name="order">New Order</param>
+            <returns>New Order</returns>
+        </member>
+        <member name="M:CustomerWebApi.Controllers.CustomerController.GetOrders(System.Int64)">
+            <summary>
+            Gets All Orders by customer id 
+            </summary>
+            <returns>Customer's orders</returns>
+        </member>
+        <member name="M:CustomerWebApi.Controllers.CustomerController.GetProductStocks(System.Int64)">
+            <summary>
+            Gets product stocks by rpoduct ıd
+            </summary>
+            <returns>Products stocks</returns>
+        </member>
+    </members>
+</doc>
